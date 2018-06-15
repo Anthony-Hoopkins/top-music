@@ -1,0 +1,174 @@
+ @font-face {
+  font-family: "Rosa Marena";
+  src: url("../fonts/ROSA_MARENA.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {  
+  font-family: "GothamPro-Black";
+  src: url("../fonts/GOTHAPROBLA.OTF");  
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    font-family: 'GothamPro-Black', sans-serif;
+}
+
+.controls{
+    margin: 20px;
+    text-align: center;
+}
+
+.page-title{
+    font-family: 'Rosa Marena', sans-serif, cursive;
+    font-size: 36pt;
+    text-align: center;
+}
+
+.get-top-btn {
+    padding: 5px 10px;
+    margin: 30px;
+    width: 110px;
+    background: #fff;
+    border: 1px #aaa solid;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.get-top-btn:hover {
+    border-color: #666;
+    color: #606060;
+}
+
+.main-display-title{
+    text-align: center;
+    font-size: 24pt;
+    font-family: 'Rosa Marena', sans-serif, cursive;
+    margin-bottom: 15px;
+}
+
+.main-display-title span{
+     border-bottom: 1px solid #a0a0a0;
+ }
+
+.main-display{
+    min-height: 300px;
+    width: 90%;
+    margin: 0 auto;   
+    background: #afa58e;
+    border: 1px #aaa solid;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+.main-table {
+    border-collapse: collapse;
+}
+
+.main-table tr td:first-child{
+    text-align: right;
+}
+
+.main-table tr td{
+    padding: 0 10px;
+}
+
+.main-table tr{
+    min-height: 50px;
+    background: #afa58e;
+}
+
+.main-display .main-table tr:nth-child(even){
+     background: #aaa;
+
+}
+
+.number-of-tracks{
+    width: 70px;
+    margin: 30px;
+}
+
+ 
+.cabinet-input{
+  position: absolute;
+  right: 5%;
+  top: 40px;
+  font-family: 'GothamPro',  sans-serif;
+  font-size: 18pt;
+  color: #222;
+  z-index: 9;
+} 
+
+.vert-line{
+  font-size: 24px;
+}
+
+.empty{
+   width:170px;
+   padding: 0 5% 0 0;
+}
+
+.not-tracks{
+    text-align: center;
+    color:#dc5e4e;
+}
+
+ /* entrance success */
+
+#cabinet_success{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#cabinet_success{
+  display: none;
+}
+
+#cabinet_success .mail-count{
+  font-size: 12pt;
+  padding: 15px 0 15px 10px;
+}
+
+.mini-avatar{
+  border-radius: 30px;
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  background:  url("/images/d2_12.jpg") center no-repeat;
+  background-size: 150%; 
+  margin: 0 15px;
+}
+
+.mini-menu-drop{
+  position: absolute;
+  right: -0.5%;
+  top:  60px;
+  width: 120%;
+  box-shadow:  5px 5px 20px 5px #a0a0a0;
+  background-color: #fff;
+  padding: 20px 30px 20px 0;   
+}
+
+.hidden_cl{
+  visibility: hidden;
+}
+
+.hidden_full{
+  display: none;
+}
+
+.mini-menu-drop li{
+  list-style-type: none;
+  text-align: left;
+  width: 100%;
+  padding: 5px 0 5px 30px;
+}
+
+.mini-menu-drop li:hover {
+  background-color: #afa58e;
+  color: #fff;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Top Music App</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+
+<body>
+
+	<header>
+		
+		<h1 class="page-title">Top Music Application</h1>
+
+	</header>
+
+	<main>		
+
+		<div class="player">
+
+		    <div class="controls">
+		    	
+		    	<label for="country-select" >Select country </label>
+		    	<select id="country-select" >
+		    		<option value="Spain">Spain</option>
+		    		<option value="Uruguay">Uruguay</option>
+		    		<option value="Ukraine">Ukraine</option>
+		    		<option value="Uganda">Uganda</option>
+		    		<option value="Sierra Leone">Sierra Leone</option>		    		
+		    	</select> 
+		    	<br>
+
+		    	<label for="number-of-tracks" > Specify the number of tracks in the request </label>
+		    	<input id="number-of-tracks" class="number-of-tracks" type="number" name=""  title="min 10 max 100">
+		    	<br>	
+
+		        <button id="get-top" class="get-top-btn" title="Сlick to get best tracks of the week"> GetTOP </button>
+		    </div>
+
+		    <p class="temp"> </p>
+
+		    <div id="main-display-title" class="main-display-title"> </div>
+		    <div id="main-display" class="main-display">
+		    	
+		    </div>
+		 
+		</div>
+
+	</main>
+
+	<footer>
+
+		<div id="cabinet-input-block-div" class="right-head cabinet-input">
+
+			<div id="cabinet_login"> 
+				<span id="entrance-cabinet-btn"> Вход </span>	
+				<span class="vert-line">&#124;</span> 
+				<span id="registration-btn"> Регистрация </span>	
+			</div>
+
+			<div id="cabinet_success">
+
+				<div class="for-mail-icon"> 
+					<img src="/images/messages_icon.png" alt="mail_icon">
+				</div>
+				<div class="mail-count"> Сообщения (5) </div>
+				<div class="mini-avatar"> </div>				
+				<div class="mini-menu">
+					<img src="/images/drop_arrow_menu.png" alt="drop-down">
+					<ul class="mini-menu-drop hidden_cl">
+						<li id="mini-menu_my-page">Моя страница </li>
+						<li id="mini-menu_options">  Настройки </li>  
+						<li id="mini-menu_exit"> Выход </li>
+					</ul>
+				</div>				
+
+			</div>
+
+		</div>
+
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  
+	<script src="/js/script.js"></script>
+	<script src="/js/script_input.js"></script>
+
+</body>
+
+</html>

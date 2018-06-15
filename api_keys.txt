@@ -1,0 +1,2 @@
+API key 4c25d8be5fdaa66f43b45133c6db2e9c
+https://www.last.fm/api
