@@ -115,7 +115,9 @@ body{
     color:#dc5e4e;
 }
 
- /* entrance success */
+.mini-menu-drop, #cabinet_success, #cabinet_login{
+    cursor: pointer;
+}
 
 #cabinet_success{
   display: flex;
